@@ -62,7 +62,7 @@ function App() {
     <div className="guess">
       <div>
         {gameState === "start" && (
-          <Button variant="outlined" onClick={startNewGame}>
+          <Button variant="contained" onClick={startNewGame}>
             Start New Game
           </Button>
         )}
